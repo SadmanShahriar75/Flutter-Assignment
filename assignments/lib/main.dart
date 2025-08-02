@@ -1,3 +1,4 @@
+import 'package:assignments/module%2010%20assignment/exam_week_2.dart';
 import 'package:assignments/module%2010%20assignment/module_10.dart';
 import 'package:flutter/material.dart';
 
@@ -12,11 +13,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-      ),
-      home: Module_10(),
+      theme: ThemeData(),
+      home: AddEmployeeScreen(),
     );
   }
 }
