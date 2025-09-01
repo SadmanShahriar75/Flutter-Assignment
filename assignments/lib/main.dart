@@ -1,5 +1,4 @@
-import 'package:assignments/module%2010%20assignment/exam_week_2.dart';
-import 'package:assignments/module%2010%20assignment/module_10.dart';
+import 'package:assignments/Crud%20Api%20Exam%203/screens/homescreen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,8 +14,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      theme: ThemeData(),
-      home: AddEmployeeScreen(),
+      theme: ThemeData(colorSchemeSeed: Colors.purpleAccent),
+      home: CrudHome(),
     );
   }
 }
