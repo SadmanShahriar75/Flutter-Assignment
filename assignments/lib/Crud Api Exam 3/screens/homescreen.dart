@@ -8,6 +8,8 @@ import 'package:assignments/Crud%20Api%20Exam%203/widgets/pruductitem.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart';
 
+// post , get , delete korsi ,, update ta kora hoy nai
+
 class CrudHome extends StatefulWidget {
   const CrudHome({super.key});
 
